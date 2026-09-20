@@ -13,7 +13,7 @@
   <img src="https://komarev.com/ghpvc/?username=tushar29k&color=C1121F&style=flat" alt="profile views" />
 </div>
 
-**AI Engineer** with 2 years building production GenAI at **KPMG** (Sep 2024 – present): multi-agent pipelines, RAG over large document corpora, vector search at scale, and LLM fine-tuning (LoRA/QLoRA). I build eval-first — every system ships with numbers, not vibes — and open-source a new increment every single day. Based in Bengaluru, India. 🏴‍☠️ <img src="https://raw.githubusercontent.com/tushar29k/tushar29k/main/assets/twinkle.svg" width="14" alt="" />
+**AI Engineer** with 2 years shipping production GenAI at **KPMG** (Sep 2024 – present) — multi-agent pipelines, RAG over large document corpora, vector search at scale, and LoRA/QLoRA fine-tuning. I build eval-first: every system ships with numbers, not vibes. And I open-source something new every single day. 📍 Bengaluru, India 🏴‍☠️ <img src="https://raw.githubusercontent.com/tushar29k/tushar29k/main/assets/twinkle.svg" width="14" alt="" />
 
 > *"If you don't take risks, you can't create a future." — Monkey D. Luffy*
 
@@ -32,7 +32,10 @@
 [![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 [![MCP](https://img.shields.io/badge/MCP-000000?style=for-the-badge&logoColor=white)](https://modelcontextprotocol.io/)
 [![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)](https://azure.microsoft.com/)
+[![Azure OpenAI](https://img.shields.io/badge/Azure_OpenAI-0078D4?style=for-the-badge&logo=openai&logoColor=white)](https://azure.microsoft.com/en-us/products/ai-services/openai-service)
+[![Azure AI Search](https://img.shields.io/badge/Azure_AI_Search-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)](https://azure.microsoft.com/en-us/products/ai-services/ai-search)
 [![Vertex AI](https://img.shields.io/badge/Vertex_AI-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)](https://cloud.google.com/vertex-ai)
+[![Cloud Run](https://img.shields.io/badge/Cloud_Run-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)](https://cloud.google.com/run)
 [![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
 [![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/features/actions)
 [![AI-102](https://img.shields.io/badge/Azure_AI--102-Certified-0078D4?style=for-the-badge)](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/)
