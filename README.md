@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/tushar29k/tushar29k/main/assets/banner.webp" alt="Tushar K — sailing the Grand Line of AI" />
+  <img src="https://raw.githubusercontent.com/tushar29k/tushar29k/main/assets/banner.webp" alt="Tushar K — One Piece themed banner" />
 </div>
 
 <div align="center">
@@ -10,11 +10,15 @@
   <img src="https://komarev.com/ghpvc/?username=tushar29k&color=C1121F&style=flat" alt="profile views" />
 </div>
 
-**AI Engineer** with 2 years sailing the Grand Line of production GenAI at **KPMG** (Sep 2024 – present): multi-agent pipelines, RAG over large document corpora, vector search at scale, and LLM fine-tuning (LoRA/QLoRA). I build eval-first — every system ships with numbers, not vibes — and open-source a new increment every single day. Based in Bengaluru, India. 🏴‍☠️
+<img align="right" width="360" src="https://raw.githubusercontent.com/tushar29k/tushar29k/main/assets/ship-sailing.gif" alt="pirate ship sailing at sunset" />
+
+**AI Engineer** with 2 years building production GenAI at **KPMG** (Sep 2024 – present): multi-agent pipelines, RAG over large document corpora, vector search at scale, and LLM fine-tuning (LoRA/QLoRA). I build eval-first — every system ships with numbers, not vibes — and open-source a new increment every single day. Based in Bengaluru, India. 🏴‍☠️
+
+<br clear="both" />
 
 ---
 
-### ⚔️ Tech Arsenal
+### 🛠️ Stack
 
 <div align="center">
 
@@ -41,7 +45,7 @@
 
 ---
 
-### 🏴‍☠️ The Crew
+### 🚀 What I'm building
 
 <div align="center">
 
@@ -50,13 +54,13 @@
 | [![rag-service](https://github-readme-stats.vercel.app/api/pin/?username=tushar29k&repo=rag-service&bg_color=0D1526&title_color=FF6B6B&text_color=C9D1D9&icon_color=F4A259&hide_border=true)](https://github.com/tushar29k/rag-service) | [![agent-service](https://github-readme-stats.vercel.app/api/pin/?username=tushar29k&repo=agent-service&bg_color=0D1526&title_color=FF6B6B&text_color=C9D1D9&icon_color=F4A259&hide_border=true)](https://github.com/tushar29k/agent-service) |
 | [![llm-service](https://github-readme-stats.vercel.app/api/pin/?username=tushar29k&repo=llm-service&bg_color=0D1526&title_color=FF6B6B&text_color=C9D1D9&icon_color=F4A259&hide_border=true)](https://github.com/tushar29k/llm-service) | [![pr-review-agent](https://github-readme-stats.vercel.app/api/pin/?username=tushar29k&repo=pr-review-agent&bg_color=0D1526&title_color=FF6B6B&text_color=C9D1D9&icon_color=F4A259&hide_border=true)](https://github.com/tushar29k/pr-review-agent) |
 
-*Every crewmate ships a real commit every day — and every README leads with eval numbers.*
+*Every repo ships a real commit every day — and every README leads with eval numbers.*
 
 </div>
 
 ---
 
-### 💰 Bounty Poster
+### 📊 Stats
 
 <div align="center">
 
@@ -68,20 +72,18 @@
 
 ---
 
-### 🌊 The Voyage So Far
+### 🐍 Contributions
 
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tushar29k/tushar29k/output/github-snake-dark.svg" />
-    <img alt="contribution snake sailing the seas" src="https://raw.githubusercontent.com/tushar29k/tushar29k/output/github-snake.svg" />
+    <img alt="contribution snake" src="https://raw.githubusercontent.com/tushar29k/tushar29k/output/github-snake.svg" />
   </picture>
 </div>
 
 ---
 
-### 🐌 Den Den Mushi
-
-*Ring ring — the transponder snail connects you straight to my desk.*
+### 📫 Get in touch
 
 - **Email:** maxtushar292001@gmail.com
 - **Open to:** AI Engineer / GenAI Engineer / LLM Engineer roles — anywhere in India, remote-friendly
