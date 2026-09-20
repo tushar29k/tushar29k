@@ -15,6 +15,8 @@
 
 **AI Engineer** with 2 years building production GenAI at **KPMG** (Sep 2024 – present): multi-agent pipelines, RAG over large document corpora, vector search at scale, and LLM fine-tuning (LoRA/QLoRA). I build eval-first — every system ships with numbers, not vibes — and open-source a new increment every single day. Based in Bengaluru, India. 🏴‍☠️
 
+> *"If you don't take risks, you can't create a future." — Monkey D. Luffy*
+
 ---
 
 ### 🛠️ Stack
@@ -66,6 +68,8 @@
 
 </div>
 
+<p align="center"><em>🏴‍☠️ Bounty rising — one commit at a time.</em></p>
+
 ---
 
 ### 🐍 Contributions
@@ -81,7 +85,21 @@
 
 ---
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/tushar29k/tushar29k/main/assets/lightning-strip.gif" alt="thunder breathing lightning" />
+</div>
+
 ### 📫 Get in touch
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/tushar29k/tushar29k/main/assets/den-den-mushi.webp" alt="den den mushi" width="140" />
+  <br />
+  <em>Puru puru puru… the line is open 📞🐌</em>
+</div>
 
 - **Email:** maxtushar292001@gmail.com
 - **Open to:** AI Engineer / GenAI Engineer / LLM Engineer roles — anywhere in India, remote-friendly
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=wave&color=0D1526&height=100&section=footer" alt="ocean wave" />
+</div>
