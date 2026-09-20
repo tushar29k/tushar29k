@@ -17,6 +17,12 @@
 
 > *"If you don't take risks, you can't create a future." — Monkey D. Luffy*
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/tushar29k/tushar29k/main/assets/straw-hat.webp" alt="straw hat" width="90" />
+  &nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/tushar29k/tushar29k/main/assets/ace-tattoo.webp" alt="ace tattoo" width="110" />
+</div>
+
 ---
 
 ### 🛠️ Stack
@@ -46,6 +52,10 @@
 
 ---
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/tushar29k/tushar29k/main/assets/zoro-slash.gif" alt="zoro sword slash" width="360" />
+</div>
+
 ### 🚀 What I'm building
 
 <div align="center">
@@ -64,7 +74,7 @@
 
 <img src="https://raw.githubusercontent.com/tushar29k/tushar29k/main/assets/stats.svg" alt="GitHub stats" />
 <img src="https://raw.githubusercontent.com/tushar29k/tushar29k/main/assets/top-langs.svg" alt="top languages" />
-![Streak](https://streak-stats.demolab.com?user=tushar29k&background=0D1526&stroke=FF6B6B&ring=F4A259&fire=FF6B6B&currStreakNum=FFFFFF&sideNums=C9D1D9&currStreakLabel=FF6B6B&sideLabels=C9D1D9&dates=C9D1D9&hide_border=true)
+<img src="https://streak-stats.demolab.com?user=tushar29k&background=0D1526&stroke=FF6B6B&ring=F4A259&fire=FF6B6B&currStreakNum=FFFFFF&sideNums=C9D1D9&currStreakLabel=FF6B6B&sideLabels=C9D1D9&dates=C9D1D9&hide_border=true" alt="streak" />
 
 </div>
 
