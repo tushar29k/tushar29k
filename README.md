@@ -13,15 +13,7 @@
   <img src="https://komarev.com/ghpvc/?username=tushar29k&color=C1121F&style=flat" alt="profile views" />
 </div>
 
-**AI Engineer** with 2 years building production GenAI at **KPMG** (Sep 2024 – present): multi-agent pipelines, RAG over large document corpora, vector search at scale, and LLM fine-tuning (LoRA/QLoRA). I build eval-first — every system ships with numbers, not vibes — and open-source a new increment every single day. Based in Bengaluru, India. 🏴‍☠️
-
-> *"If you don't take risks, you can't create a future." — Monkey D. Luffy*
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/tushar29k/tushar29k/main/assets/straw-hat.webp" alt="straw hat" width="90" />
-  &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/tushar29k/tushar29k/main/assets/ace-tattoo.webp" alt="ace tattoo" width="110" />
-</div>
+**AI Engineer** with 2 years building production GenAI at **KPMG** (Sep 2024 – present): multi-agent pipelines, RAG over large document corpora, vector search at scale, and LLM fine-tuning (LoRA/QLoRA). I build eval-first — every system ships with numbers, not vibes — and open-source a new increment every single day. Based in Bengaluru, India. 🏴‍☠️ <img src="https://raw.githubusercontent.com/tushar29k/tushar29k/main/assets/twinkle.svg" width="14" alt="" />
 
 ---
 
@@ -52,10 +44,6 @@
 
 ---
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/tushar29k/tushar29k/main/assets/zoro-slash.gif" alt="zoro sword slash" width="360" />
-</div>
-
 ### 🚀 What I'm building
 
 <div align="center">
@@ -78,7 +66,7 @@
 
 </div>
 
-<p align="center"><em>🏴‍☠️ Bounty rising — one commit at a time.</em></p>
+<p align="center"><em>🏴‍☠️ Bounty rising — one commit at a time.</em> <img src="https://raw.githubusercontent.com/tushar29k/tushar29k/main/assets/twinkle.svg" width="12" alt="" /></p>
 
 ---
 
@@ -104,7 +92,7 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/tushar29k/tushar29k/main/assets/den-den-mushi.webp" alt="den den mushi" width="140" />
   <br />
-  <em>Puru puru puru… the line is open 📞🐌</em>
+  <em><img src="https://raw.githubusercontent.com/tushar29k/tushar29k/main/assets/pulse-dot.svg" width="10" alt="" /> Puru puru puru… the line is open 📞🐌</em>
 </div>
 
 - **Email:** maxtushar292001@gmail.com
