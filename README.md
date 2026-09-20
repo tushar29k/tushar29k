@@ -15,6 +15,8 @@
 
 **AI Engineer** with 2 years building production GenAI at **KPMG** (Sep 2024 – present): multi-agent pipelines, RAG over large document corpora, vector search at scale, and LLM fine-tuning (LoRA/QLoRA). I build eval-first — every system ships with numbers, not vibes — and open-source a new increment every single day. Based in Bengaluru, India. 🏴‍☠️ <img src="https://raw.githubusercontent.com/tushar29k/tushar29k/main/assets/twinkle.svg" width="14" alt="" />
 
+> *"If you don't take risks, you can't create a future." — Monkey D. Luffy*
+
 ---
 
 ### 🛠️ Stack
