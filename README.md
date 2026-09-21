@@ -67,7 +67,7 @@
 
 <img src="https://raw.githubusercontent.com/tushar29k/tushar29k/main/assets/stats.svg" alt="GitHub stats" />
 <img src="https://raw.githubusercontent.com/tushar29k/tushar29k/main/assets/top-langs.svg" alt="top languages" />
-<img src="https://streak-stats.demolab.com?user=tushar29k&background=0D1526&stroke=FF6B6B&ring=F4A259&fire=FF6B6B&currStreakNum=FFFFFF&sideNums=C9D1D9&currStreakLabel=FF6B6B&sideLabels=C9D1D9&dates=C9D1D9&hide_border=true" alt="streak" />
+<img src="https://streak-stats.demolab.com?user=tushar29k&background=0B1424&stroke=22D3EE&ring=2DD4BF&fire=22D3EE&currStreakNum=FFFFFF&sideNums=C9D1D9&currStreakLabel=22D3EE&sideLabels=C9D1D9&dates=8B98A9&hide_border=true" alt="streak" />
 
 </div>
 
@@ -104,5 +104,5 @@
 - **Open to:** AI Engineer / GenAI Engineer / LLM Engineer roles — anywhere in India, remote-friendly
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=wave&color=0D1526&height=100&section=footer" alt="ocean wave" />
+  <img src="https://capsule-render.vercel.app/api?type=wave&color=0B1424&height=100&section=footer" alt="ocean wave" />
 </div>
