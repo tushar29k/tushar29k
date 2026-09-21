@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
-"""Generate assets/stack-glass.svg — anime-themed tech-stack showcase.
+"""Generate assets/stack-glass.svg — pirate-chart tech-stack showcase.
 
-Manga-panel card on the night-sea navy base: ink-bordered pills with a slow
-subtle glow, red hanko-style kanji chips per group (忍法 / 探索 / 武器 / 心構え),
-a small rising sun, halftone dots and thin speedlines. Pure SVG + CSS
-keyframes, which GitHub renders (including the animation) inside README
-<img> tags. Respects prefers-reduced-motion.
+Deep-sea chart card on ocean navy: ink-bordered pills with a slow subtle
+blue glow, deep-blue enamel kanji chips per group (忍法 / 探索 / 武器 / 心構え),
+a slow-turning log-pose compass rose, faint nautical chart grid and thin
+current lines. Pure SVG + CSS keyframes/SMIL, which GitHub renders (including
+the animation) inside README <img> tags. Respects prefers-reduced-motion.
 """
+import math
 from PIL import ImageFont
 
 GROUPS = [
@@ -24,7 +25,7 @@ GROUPS = [
                              "Guardrails"]),
 ]
 
-GROUP_ACCENTS = ["#22D3EE", "#2DD4BF", "#A78BFA", "#F472B6"]  # cyan/teal/violet/pink
+GROUP_ACCENTS = ["#22D3EE", "#38BDF8", "#60A5FA", "#818CF8"]  # ice cyan to deep blue
 
 W = 820
 PAD = 28
@@ -35,9 +36,9 @@ LABEL_H = 30
 GROUP_GAP = 26
 HEADER_H = 54
 FONT_SIZE = 13.5
-RED = "#E63946"
-PAPER = "#F5F2E9"
-INK = "#04080F"
+DEEP_BLUE = "#1D4ED8"  # enamel blue for kanji chips
+ICE = "#BAE6FD"        # ice-blue chip text
+INK = "#030A14"        # deep water ink
 
 try:
     font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", int(FONT_SIZE))
@@ -74,56 +75,67 @@ H = int(y - GROUP_GAP + PAD)
 CSS = """
 .pill{animation:pillGlow 12s ease-in-out infinite}
 @keyframes pillGlow{
-0%,100%{filter:drop-shadow(0 0 2px rgba(139,152,169,.10))}
-50%{filter:drop-shadow(0 0 5px rgba(139,152,169,.22))}
+0%,100%{filter:drop-shadow(0 0 2px rgba(56,189,248,.10))}
+50%{filter:drop-shadow(0 0 5px rgba(56,189,248,.22))}
 }
 .beam{animation:beamFlow 12s ease-in-out infinite}
-@keyframes beamFlow{0%,100%{stop-color:#38bdf8}50%{stop-color:#2dd4bf}}
-.sun{animation:sunPulse 9s ease-in-out infinite}
-@keyframes sunPulse{0%,100%{opacity:.75}50%{opacity:.45}}
+@keyframes beamFlow{0%,100%{stop-color:#38bdf8}50%{stop-color:#60a5fa}}
 text{font-family:'Segoe UI',system-ui,-apple-system,'Noto Sans CJK JP','Hiragino Sans','Yu Gothic',sans-serif}
-@media (prefers-reduced-motion: reduce){.pill,.beam,.sun{animation:none}}
+@media (prefers-reduced-motion: reduce){.pill,.beam{animation:none}}
 """
+
+def compass_points(cx, cy, r):
+    # 8-point compass star; the north spike runs a little longer
+    pts = []
+    for i in range(16):
+        ang = math.pi * i / 8 - math.pi / 2
+        rad = r * (1.18 if i == 0 else 1.0 if i % 2 == 0 else 0.34)
+        pts.append(f"{cx + rad * math.cos(ang):.1f},{cy + rad * math.sin(ang):.1f}")
+    return " ".join(pts)
 
 parts = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Tech stack">']
 parts.append(f"<style>{CSS}</style>")
 parts.append("""<defs>
 <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
-<stop offset="0" stop-color="#101d33"/><stop offset="1" stop-color="#0a1424"/>
+<stop offset="0" stop-color="#0d2140"/><stop offset="1" stop-color="#081528"/>
 </linearGradient>
-<pattern id="halftone" width="9" height="9" patternUnits="userSpaceOnUse">
-<circle cx="4.5" cy="4.5" r="1.25" fill="#8b98a9" opacity="0.16"/>
+<pattern id="chartgrid" width="28" height="28" patternUnits="userSpaceOnUse">
+<path d="M28 0H0V28" fill="none" stroke="#38bdf8" stroke-width="0.7" opacity="0.25"/>
 </pattern>
-<radialGradient id="sunGlow" cx="0.5" cy="0.5" r="0.5">
-<stop offset="0" stop-color="#E63946" stop-opacity="0.5"/>
-<stop offset="1" stop-color="#E63946" stop-opacity="0"/>
-</radialGradient>
 </defs>""")
-# manga panel frame: navy fill, ink border, inner hairline
+# chart frame: navy fill, ink border, inner hairline
 parts.append(f'<rect x="1" y="1" width="{W-2}" height="{H-2}" rx="20" fill="url(#panel)" stroke="{INK}" stroke-width="2"/>')
-parts.append(f'<rect x="6" y="6" width="{W-12}" height="{H-12}" rx="16" fill="none" stroke="#182742" stroke-width="1"/>')
-# manga texture: halftone corners + faint speedlines + rising sun by the header
-parts.append(f'<rect x="{W-180}" y="8" width="172" height="86" fill="url(#halftone)"/>')
-parts.append(f'<rect x="8" y="{H-94}" width="150" height="86" fill="url(#halftone)" opacity="0.5"/>')
+parts.append(f'<rect x="6" y="6" width="{W-12}" height="{H-12}" rx="16" fill="none" stroke="#1C3556" stroke-width="1"/>')
+# chart texture: grid corners + faint current lines
+parts.append(f'<rect x="{W-180}" y="8" width="172" height="86" fill="url(#chartgrid)"/>')
+parts.append(f'<rect x="8" y="{H-94}" width="150" height="86" fill="url(#chartgrid)" opacity="0.5"/>')
 for i in range(5):
     x = W - 60 - i * 16
-    parts.append(f'<line x1="{x}" y1="{H-18}" x2="{x-46}" y2="{H-64}" stroke="#8b98a9" stroke-width="2" stroke-linecap="round" opacity="0.07"/>')
+    parts.append(f'<line x1="{x}" y1="{H-18}" x2="{x-46}" y2="{H-64}" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" opacity="0.08"/>')
 
-# header: title + hanko chip + rising sun
+# header: title + enamel chip + slow-turning log-pose compass rose
 parts.append(f'<text x="{PAD}" y="{PAD+22}" font-size="14" font-weight="700" fill="#22d3ee" letter-spacing="4">TECH STACK</text>')
 chip_w = 2 * 17 + 16
-parts.append(f'<rect x="{PAD+150}" y="{PAD+2}" width="{chip_w}" height="26" rx="13" fill="{RED}" opacity="0.92"/>')
-parts.append(f'<text x="{PAD+150+chip_w/2:.0f}" y="{PAD+20}" font-size="14" font-weight="700" fill="{PAPER}" text-anchor="middle">技術</text>')
-parts.append(f'<g class="sun"><circle cx="{W-PAD-24}" cy="{PAD+14}" r="30" fill="url(#sunGlow)"/><circle cx="{W-PAD-24}" cy="{PAD+14}" r="14" fill="{RED}" opacity="0.8"/></g>')
+parts.append(f'<rect x="{PAD+150}" y="{PAD+2}" width="{chip_w}" height="26" rx="13" fill="{DEEP_BLUE}" opacity="0.95"/>')
+parts.append(f'<text x="{PAD+150+chip_w/2:.0f}" y="{PAD+20}" font-size="14" font-weight="700" fill="{ICE}" text-anchor="middle">技術</text>')
+rcx, rcy, rr = W - PAD - 26, PAD + 16, 21
+parts.append(
+    f'<g opacity="0.55"><g>'
+    f'<animateTransform attributeName="transform" type="rotate" from="0 {rcx} {rcy}" to="360 {rcx} {rcy}" dur="60s" repeatCount="indefinite"/>'
+    f'<circle cx="{rcx}" cy="{rcy}" r="{rr}" fill="none" stroke="#7DD3FC" stroke-width="1"/>'
+    f'<circle cx="{rcx}" cy="{rcy}" r="{rr*0.66:.1f}" fill="none" stroke="#7DD3FC" stroke-width="0.6"/>'
+    f'<polygon points="{compass_points(rcx, rcy, rr)}" fill="#7DD3FC" opacity="0.85"/>'
+    f'<circle cx="{rcx}" cy="{rcy}" r="{rr*0.13:.1f}" fill="#081528" stroke="#7DD3FC" stroke-width="0.8"/>'
+    f'</g></g>')
 
 idx = 0
 for label, jp, accent, rows, gy, gh in groups_layout:
-    # hanko kanji chip + english label + animated beam
+    # enamel kanji chip + english label + animated beam
     chip_w = len(jp) * 16 + 14
     cy = gy + 9
-    parts.append(f'<rect x="{PAD}" y="{cy-9}" width="{chip_w}" height="20" rx="10" fill="{RED}" opacity="0.92"/>')
-    parts.append(f'<text x="{PAD+chip_w/2:.0f}" y="{cy+5}" font-size="12" font-weight="700" fill="{PAPER}" text-anchor="middle">{esc(jp)}</text>')
-    parts.append(f'<text x="{PAD+chip_w+12}" y="{cy+5}" font-size="12" font-weight="700" fill="#8b98b8" letter-spacing="3">{esc(label.upper())}</text>')
+    parts.append(f'<rect x="{PAD}" y="{cy-9}" width="{chip_w}" height="20" rx="10" fill="{DEEP_BLUE}" opacity="0.95"/>')
+    parts.append(f'<text x="{PAD+chip_w/2:.0f}" y="{cy+5}" font-size="12" font-weight="700" fill="{ICE}" text-anchor="middle">{esc(jp)}</text>')
+    parts.append(f'<text x="{PAD+chip_w+12}" y="{cy+5}" font-size="12" font-weight="700" fill="#7E93B3" letter-spacing="3">{esc(label.upper())}</text>')
     parts.append(f'<rect class="beam" x="{PAD}" y="{cy+14}" width="44" height="3" rx="1.5" fill="#22d3ee"/>')
     for ri, row in enumerate(rows):
         ry = gy + LABEL_H + ri * (PILL_H + ROW_GAP)
@@ -132,7 +144,7 @@ for label, jp, accent, rows, gy, gh in groups_layout:
             parts.append(
                 f'<g class="pill" style="animation-delay:{delay:.2f}s">'
                 f'<rect x="{x:.0f}" y="{ry}" width="{w:.0f}" height="{PILL_H}" rx="{PILL_H/2}" '
-                f'fill="#0c1626" stroke="{INK}" stroke-width="1.5"/>'
+                f'fill="#0B1D38" stroke="{INK}" stroke-width="1.5"/>'
                 f'<rect x="{x+3:.0f}" y="{ry+3}" width="{w-6:.0f}" height="{PILL_H-6}" rx="{(PILL_H-6)/2}" '
                 f'fill="none" stroke="{accent}" stroke-width="1" opacity="0.45"/>'
                 f'<text x="{x+w/2:.0f}" y="{ry+PILL_H/2+5}" font-size="{FONT_SIZE}" fill="#eaf2ff" '
