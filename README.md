@@ -13,13 +13,13 @@
   <img src="https://komarev.com/ghpvc/?username=tushar29k&color=C1121F&style=flat" alt="profile views" />
 </div>
 
-**AI Engineer** with 2 years shipping production GenAI at **KPMG** (Sep 2024 – present) — multi-agent pipelines, RAG over large document corpora, vector search at scale, and LoRA/QLoRA fine-tuning. I build eval-first: every system ships with numbers, not vibes. And I open-source something new every single day. 📍 Bengaluru, India · 🌐 [tushar29k.github.io](https://tushar29k.github.io/) 🏴‍☠️ <img src="https://raw.githubusercontent.com/tushar29k/tushar29k/main/assets/twinkle.svg" width="14" alt="" />
+**AI Engineer** with 2 years shipping production GenAI at **KPMG** (Sep 2024 – present) — multi-agent pipelines, RAG over large document corpora, vector search at scale, and LoRA/QLoRA fine-tuning. I build eval-first: every system ships with numbers, not vibes. And I open-source something new every single day. 📍 Bengaluru, India 🏴‍☠️ <img src="https://raw.githubusercontent.com/tushar29k/tushar29k/main/assets/twinkle.svg" width="14" alt="" />
 
 > *"If you don't take risks, you can't create a future." — Monkey D. Luffy*
 
 ---
 
-### 🛠️ Stack
+### 🛠️ Stack · 技術
 
 <div align="center">
 
@@ -29,7 +29,7 @@
 
 ---
 
-### 🚀 What I'm building
+### 🚀 What I'm building · 冒険
 
 <div align="center">
   <a href="https://github.com/tushar29k?tab=repositories">
@@ -41,7 +41,7 @@
 
 ---
 
-### 📊 Stats
+### 📊 Stats · 戦績
 
 <div align="center">
 
@@ -81,7 +81,6 @@
 </div>
 
 - **Email:** maxtushar292001@gmail.com
-- **Portfolio:** [tushar29k.github.io](https://tushar29k.github.io/)
 - **Open to:** AI Engineer / GenAI Engineer / LLM Engineer roles — anywhere in India, remote-friendly
 
 <div align="center">
