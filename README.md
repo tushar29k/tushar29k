@@ -2,7 +2,7 @@
   <a href="https://github.com/tushar29k">
     <img src="https://raw.githubusercontent.com/tushar29k/tushar29k/main/assets/banner.webp" alt="Tushar — night sea banner" />
   </a>
-  <img src="https://raw.githubusercontent.com/tushar29k/tushar29k/main/assets/lightning-strip.gif" alt="thunder breathing lightning" />
+  <img src="https://raw.githubusercontent.com/tushar29k/tushar29k/main/assets/tide-line.svg" alt="" width="420" />
 </div>
 
 <div align="center">
@@ -69,7 +69,7 @@
 ---
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/tushar29k/tushar29k/main/assets/lightning-strip.gif" alt="thunder breathing lightning" />
+  <img src="https://raw.githubusercontent.com/tushar29k/tushar29k/main/assets/tide-line.svg" alt="" width="420" />
 </div>
 
 ### 📫 Get in touch
