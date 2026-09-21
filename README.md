@@ -47,7 +47,7 @@
 
 <img src="https://raw.githubusercontent.com/tushar29k/tushar29k/main/assets/stats.svg" alt="GitHub stats" />
 <img src="https://raw.githubusercontent.com/tushar29k/tushar29k/main/assets/top-langs.svg" alt="top languages" />
-<img src="https://streak-stats.demolab.com?user=tushar29k&background=0B1424&stroke=22D3EE&ring=2DD4BF&fire=22D3EE&currStreakNum=FFFFFF&sideNums=C9D1D9&currStreakLabel=22D3EE&sideLabels=C9D1D9&dates=8B98A9&hide_border=true" alt="streak" />
+<img src="https://streak-stats.demolab.com?user=tushar29k&background=10182B&stroke=C9A86A&ring=C9A86A&fire=E8A84B&currStreakNum=E8E4D8&sideNums=8A93A8&currStreakLabel=C9A86A&sideLabels=8A93A8&dates=6B7488&hide_border=true" alt="streak" />
 
 </div>
 
