@@ -31,6 +31,15 @@
 [![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 [![MCP](https://img.shields.io/badge/MCP-000000?style=for-the-badge&logoColor=white)](https://modelcontextprotocol.io/)
+[![LlamaIndex](https://img.shields.io/badge/LlamaIndex-7209DB?style=for-the-badge&logoColor=white)](https://www.llamaindex.ai/)
+[![OpenAI](https://img.shields.io/badge/OpenAI-000000?style=for-the-badge&logo=openai&logoColor=white)](https://openai.com/)
+[![Anthropic](https://img.shields.io/badge/Anthropic-D97757?style=for-the-badge&logo=anthropic&logoColor=white)](https://www.anthropic.com/)
+[![vLLM](https://img.shields.io/badge/vLLM-000000?style=for-the-badge&logoColor=white)](https://docs.vllm.ai/)
+[![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logoColor=white)](https://ollama.com/)
+[![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=for-the-badge&logoColor=white)](https://www.pinecone.io/)
+[![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=for-the-badge&logoColor=white)](https://qdrant.tech/)
+[![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)](https://kubernetes.io/)
+[![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)](https://mlflow.org/)
 [![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)](https://azure.microsoft.com/)
 [![Azure OpenAI](https://img.shields.io/badge/Azure_OpenAI-0078D4?style=for-the-badge&logo=openai&logoColor=white)](https://azure.microsoft.com/en-us/products/ai-services/openai-service)
 [![Azure AI Search](https://img.shields.io/badge/Azure_AI_Search-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)](https://azure.microsoft.com/en-us/products/ai-services/ai-search)
@@ -42,10 +51,10 @@
 
 </div>
 
-**LLM & Agents:** LangChain · LangGraph · Google ADK · MCP · Azure OpenAI · Vertex AI · Hugging Face Transformers
-**Retrieval:** Azure Cognitive Search · vector search · hybrid retrieval · reranking
-**Tuning & Data:** LoRA/QLoRA · SQL · eval harnesses (recall, faithfulness, LLM-as-judge)
-**Serving:** FastAPI · Cloud Run · Docker · CI/CD
+**LLM & Agents:** LangChain · LangGraph · LlamaIndex · Google ADK · AutoGen · CrewAI · MCP · OpenAI API · Anthropic API · Gemini API · Azure OpenAI · Hugging Face · Transformers · PyTorch · vLLM · Ollama · Pydantic
+**Retrieval & Data:** Azure AI Search · Pinecone · Qdrant · Weaviate · Milvus · pgvector · FAISS · Elasticsearch · hybrid retrieval · reranking · embeddings · SQL · NumPy · Pandas
+**Serving & MLOps:** Python · FastAPI · Uvicorn · Docker · Kubernetes · Cloud Run · GitHub Actions · MLflow · Weights & Biases · Pytest · REST APIs · Linux · Git
+**Practices:** eval-driven development · prompt engineering · agentic workflows (ReAct) · structured extraction · LLM-as-judge · LoRA/QLoRA · RAG evals · guardrails
 
 ---
 
