@@ -23,38 +23,9 @@
 
 <div align="center">
 
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
-[![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)](https://www.langchain.com/)
-[![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)](https://www.langchain.com/langgraph)
-[![Google ADK](https://img.shields.io/badge/Google_ADK-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://google.github.io/adk-docs/)
-[![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
-[![MCP](https://img.shields.io/badge/MCP-000000?style=for-the-badge&logoColor=white)](https://modelcontextprotocol.io/)
-[![LlamaIndex](https://img.shields.io/badge/LlamaIndex-7209DB?style=for-the-badge&logoColor=white)](https://www.llamaindex.ai/)
-[![OpenAI](https://img.shields.io/badge/OpenAI-000000?style=for-the-badge&logo=openai&logoColor=white)](https://openai.com/)
-[![Anthropic](https://img.shields.io/badge/Anthropic-D97757?style=for-the-badge&logo=anthropic&logoColor=white)](https://www.anthropic.com/)
-[![vLLM](https://img.shields.io/badge/vLLM-000000?style=for-the-badge&logoColor=white)](https://docs.vllm.ai/)
-[![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logoColor=white)](https://ollama.com/)
-[![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=for-the-badge&logoColor=white)](https://www.pinecone.io/)
-[![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=for-the-badge&logoColor=white)](https://qdrant.tech/)
-[![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)](https://kubernetes.io/)
-[![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)](https://mlflow.org/)
-[![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)](https://azure.microsoft.com/)
-[![Azure OpenAI](https://img.shields.io/badge/Azure_OpenAI-0078D4?style=for-the-badge&logo=openai&logoColor=white)](https://azure.microsoft.com/en-us/products/ai-services/openai-service)
-[![Azure AI Search](https://img.shields.io/badge/Azure_AI_Search-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)](https://azure.microsoft.com/en-us/products/ai-services/ai-search)
-[![Vertex AI](https://img.shields.io/badge/Vertex_AI-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)](https://cloud.google.com/vertex-ai)
-[![Cloud Run](https://img.shields.io/badge/Cloud_Run-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)](https://cloud.google.com/run)
-[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
-[![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/features/actions)
-[![AI-102](https://img.shields.io/badge/Azure_AI--102-Certified-0078D4?style=for-the-badge)](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/)
+<img src="assets/stack-glass.svg" alt="Tech stack" width="820" />
 
 </div>
-
-**LLM & Agents:** LangChain · LangGraph · LlamaIndex · Google ADK · AutoGen · CrewAI · MCP · OpenAI API · Anthropic API · Gemini API · Azure OpenAI · Hugging Face · Transformers · PyTorch · vLLM · Ollama · Pydantic
-**Retrieval & Data:** Azure AI Search · Pinecone · Qdrant · Weaviate · Milvus · pgvector · FAISS · Elasticsearch · hybrid retrieval · reranking · embeddings · SQL · NumPy · Pandas
-**Serving & MLOps:** Python · FastAPI · Uvicorn · Docker · Kubernetes · Cloud Run · GitHub Actions · MLflow · Weights & Biases · Pytest · REST APIs · Linux · Git
-**Practices:** eval-driven development · prompt engineering · agentic workflows (ReAct) · structured extraction · LLM-as-judge · LoRA/QLoRA · RAG evals · guardrails
 
 ---
 
