@@ -10,14 +10,18 @@ keyframes, which GitHub renders (including the animation) inside README
 from PIL import ImageFont
 
 GROUPS = [
-    ("LLM & Agents", "忍法", ["LangChain", "LangGraph", "Google ADK", "MCP",
-                              "OpenAI API", "Gemini API", "Azure OpenAI", "Hugging Face"]),
-    ("Retrieval & Data", "探索", ["Azure AI Search", "FAISS", "pgvector", "Embeddings",
-                                 "Reranking", "SQL", "Pandas"]),
-    ("Serving & MLOps", "武器", ["Python", "FastAPI", "Docker", "GitHub Actions",
-                                 "Pytest", "Linux", "Git"]),
+    ("LLM & Agents", "忍法", ["LangChain", "LangGraph", "Google ADK", "LlamaIndex", "AutoGen",
+                              "CrewAI", "MCP", "OpenAI API", "Anthropic API", "Gemini API",
+                              "Azure OpenAI", "Hugging Face", "Transformers", "vLLM", "Ollama"]),
+    ("Retrieval & Data", "探索", ["Azure AI Search", "Pinecone", "Qdrant", "Weaviate", "Milvus",
+                                 "pgvector", "FAISS", "Elasticsearch", "Embeddings",
+                                 "Hybrid retrieval", "Reranking", "SQL", "Pandas", "NumPy"]),
+    ("Serving & MLOps", "武器", ["Python", "FastAPI", "Uvicorn", "Docker", "Kubernetes",
+                                 "GitHub Actions", "Pytest", "Pydantic", "REST APIs", "Linux",
+                                 "Git", "MLflow", "Weights & Biases"]),
     ("Practices", "心構え", ["Eval-driven development", "RAG evals", "Prompt engineering",
-                             "Structured extraction", "LLM-as-judge"]),
+                             "Structured extraction", "LLM-as-judge", "ReAct workflows",
+                             "Guardrails"]),
 ]
 
 GROUP_ACCENTS = ["#22D3EE", "#2DD4BF", "#A78BFA", "#F472B6"]  # cyan/teal/violet/pink
